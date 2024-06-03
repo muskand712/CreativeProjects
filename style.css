@@ -1,0 +1,405 @@
+body {
+    font-family: Arial;
+}
+
+
+#header-image{
+    display: block!important;
+    width: 100%;
+} 
+h1{
+    font-size: 42px!important;
+    margin: 0;
+    line-height: 50px! important;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+
+.modal-content {
+    border-radius: 5px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.btn-danger {
+    background-color: #ff3b3b;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #ff1c1c;
+}
+
+/* Layout Properties */
+body {
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+h5 {
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+h1 {
+    text-align: left;
+    font: normal normal bold 60px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+p {
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 150px; /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    transition: transform 0.5s ease;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+/* Hover Effects */
+.slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide:hover::after {
+    content: 'WEB DEVELOPMENT\A\A Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque\A\A Read more';
+    white-space: pre-line;
+    display: block;
+    background: #FF3147;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.slide:hover img {
+    opacity: 0;
+}
+
+
+
+.slide:hover::after a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+h2 {
+    font: normal normal 600 24px/32px 'Cormorant SC', serif;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    opacity: 1;
+}
+
+h4 {
+    font: normal normal bold 18px/24px 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    font: normal normal normal 14px/20px 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 0;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.feature {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.feature img {
+    margin-right: 15px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.project_content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+}
+.project_content:hover{
+
+    background-color: rgb(225, 103, 103);
+    
+}
+.project_content:hover p{
+
+    color: white!important;
+    
+}
+.project_content:hover h4{
+
+    color: white!important;
+    
+}
+.project-item {
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: background 0.3s ease;
+    
+}
+.image_our_project{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+.project-item:hover {
+    background: #FF3147;
+}
+
+.project-item.active {
+    background: #FF3147;
+    color: #FFFFFF;
+}
+
+.project-item h4 {
+    font: normal normal bold 18px/24px 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: inherit;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font: normal normal normal 14px/20px 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: inherit;
+    margin: 0;
+}
+.fixed-size-image {
+    width: 100%;
+    height: 285px;
+     /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+.equal-height {
+    display: flex; /* Make the row a flex container */
+    height: 60vh; /* Set a viewport-based height for the row */
+}
+
+.growth-card {
+    /* width: 270px;
+    height: 233px; */
+    align-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.growth-card:hover {
+    box-shadow: 3px 6px 20px #672C2C1F;
+}
+
+.growth-card img{
+    max-width: 80px;
+    color: #FF3147;
+    margin-bottom: 15px;
+}
+
+.growth-card h4 {
+    text-align: center;
+    font: normal normal 300 60px/65px 'Poppins';
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.growth-card p {
+    text-align: center;
+    font: normal normal normal 300 20px/80px 'Poppins';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.testimonial p {
+    text-align:justify;
+    font: normal normal normal 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    /* margin-bottom: 20px; */
+}
+
+.testimonial h5 {
+    text-align: justify;
+font: normal normal  20px/34px Poppins;
+letter-spacing: 0px;
+color: #FF3147;
+    margin: 0;
+}
+
+.name {
+    color: #FF3147;
+}
+
+.position {
+    color: #808080;
+}
+
+footer {
+    background: #FF3147;
+}
+
+footer .img-fluid {
+    max-width: 1000px;
+    /* margin: 20px; */
+    
+
+}
+
+@media (min-width: 768px) {
+    .growth-card {
+        height: 250px;
+    }
+
+    footer .img-fluid {
+        align-items: center;
+        max-width: 1000px;
+    }
+}
+.services_container{
+    width: 100%;
+    position: relative;
+    overflow-x: scroll;
+}
+.content{
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+
+}
+.content p{
+    color: white;
+}
+.read_more{
+    padding: 10px 30px;
+    border-radius: 0;
+}
